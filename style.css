@@ -1,0 +1,131 @@
+/* css for index.html / home page  */
+:root {
+  --main-color: #808080;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img{
+	width : 200px ; 
+}
+.home-container {
+	text-align: center;
+	width : 100%;
+	overflow:hidden;
+}
+h2 {
+  color: skyblue;
+  font-size: 50px;
+  margin: 20px auto;
+}
+.home-container  p {
+  margin: 20px auto;
+  font-size: 20px;
+}
+.home-container  input {
+  padding: 20px;
+  width: 80%;
+  border: 1px solid;
+  border-radius: 10px;
+  color: var(--main-color);
+}
+.user-details button {
+  width: 80px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: skyblue;
+  color: white;
+}
+.user-details + p {
+  color: var(--main-color);
+}
+.category > ul{
+	display: flex;
+	justify-content: space-evenly;
+	height: 100%;
+	list-style-type: none;
+}
+.category > ul > li > button {
+	font-size: 30px;
+	width:200px;
+	height : 100px;
+	color: gray;
+	background-color:skyblue;
+	border:2px solid skyblue;
+	border-radius:20px;
+}
+.category > ul > li :hover{
+	color: black;
+	background-color:lightgreen;
+}
+
+/* index.html style end here  */
+
+
+/* quiz.html start here  */
+.container {
+  width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	color: black;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#question {
+	width : 80%;
+	height: 50%;
+	height : 50%;
+	color:black;
+	font-size: 20px;
+	margin-left: 100px;
+	border: 2px solid lightcoral;
+	padding:20px;
+	border-radius:10px;
+
+}
+
+#options button {
+	width: 400px;
+	margin: 30px;
+	padding: 10px;
+	color: skyblue;
+	border : 1px solid skyblue;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color:white
+}
+
+#options button:hover {
+	background-color: skyblue;
+	color:white;
+}
+.container button {
+	background-color:skyblue;
+	padding:10px;
+	border:1px solid skyblue;
+	border-radius:10px;
+	font-size: 20px;
+	color:white
+}
+/* Result page  */
+.container > h1{
+	color: skyblue;
+	font-size: 80px;
+}
+.container ,p {
+	font-size: 30px;
+	margin: 20px auto;
+}
+
+
